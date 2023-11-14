@@ -1,0 +1,21 @@
+{
+  "name": "web-dev-7-5",
+  "version": "1.0.0",
+  "description": "Practice using SQLite3",
+  "main": "server.js",
+  "scripts": {
+    "database": "sqlite3 library.db",
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Practice",
+    "SQLite3"
+  ],
+  "author": "Antonio Craveiro",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
+  }
+}
